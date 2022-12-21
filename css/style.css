@@ -4,18 +4,37 @@
   margin: 0;
 }
 
-img {
-  padding-top: 20px;
-  padding-left: 20px;
+body {
+  background-image: url(../img/Destaque_o20.png);
+  background-size: 100vw 100vh;
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /*alinhar itens no container grande ----- aligner-itens = alinhar itens em cada container pequeno*/
   width: 100vw;
   height: 200px;
   background-color: black;
 }
-
-header ul {
+header img {
+  height: 260px;
+  width: 260px;
+}
+header nav {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: end;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
 }/*# sourceMappingURL=style.css.map */
