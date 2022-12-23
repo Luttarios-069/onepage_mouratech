@@ -9,9 +9,9 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;/*alinhar itens no container grande ----- aligner-itens = alinhar itens em cada container pequeno*/
-    width: 100vw;
+    width: 100%;
     height: 90px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     
     img{   
         display: flex;
@@ -21,30 +21,30 @@ header {
         height: 120px;
         width: 120px;
     }
-     
+    
+    #burguer {
+        display: none;
+        margin-top: 15px;
+        margin-right: 15px;
+        font-size: 60px;
+    }
+
     nav{
         display: flex;
         flex-direction: column;
         justify-content: end;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.508);
 
-        .checkbtn {
-            height: 30px;
-            width: 30px;
-            font-size: 30px;
-            i {
-                width: 30px;
-                height: 30px;
-            }
-        }
         ul {
             display: flex;
             flex-direction: row;
             margin-right: 5px;
+            justify-content: center;
             li {
                 display: flex;
                 flex-direction: column;
                 list-style-type: none;
-                
+                margin-bottom: 30px;
                 a {
                     text-decoration: none;
                     color: white;
@@ -56,32 +56,166 @@ header {
     }   
 }
 
+main {
+    #section1 {
+            display: flex;
+            
+            #img1 {  
+                width: 100%;
+                height: 524px;
+            }
+            p {
+                position: absolute;
+                left: 250px;
+                top: 260px;
+                font-size: 1.5em;
+                text-align: center;
+                
+                
+            }   
+        }
+    
+    #section2 {
+            display: flex;
+            background-color: orange;
+            flex-direction: row;
+            height: 520px;
+            margin-top: -1px;
+            padding-top: 20px;
+            align-items: center;
+            #img2 {
+                height: 200px;
+                width: 200px;
+                box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.271);
+                margin-left: 20px; 
+            }
+            p {
+                padding: 10px 20px;
+                text-align: justify;
+                strong {
+                    font-size: 1.3em;
+                    
+                }
+            }
+        }
+
+        #section3 {
+            display: flex;
+            background-color: rgba(14, 14, 222, 0.784);
+            flex-direction: row-reverse;
+            align-items: center;
+            height: 520px;
+            padding-top: 20px;
+            #img3 {
+                height: 200px;
+                width: 200px;  
+                box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.271);
+                margin-right: 20px;
+                position: static;
+            }
+            p {
+                padding: 10px 20px;
+                text-align: justify;
+                strong {
+                    font-size: 1.3em;
+                }
+                
+            }
+
+        }
+        #section4 {
+            display: flex;
+            background-color: yellow;
+            flex-direction: row;
+            align-items: center;
+            height: 520px;
+            padding-top: 20px;
+            #img4 {
+                height: 200px;
+                width: 200px;  
+                box-shadow: 1px 1px  1px 1px rgba(0, 0, 0, 0.271);
+                margin-left: 20px;
+            }
+            p {
+                padding: 10px 20px;
+                text-align: justify;
+                strong {
+                    font-size: 1.3em;
+                }
+                
+            }
+
+        }
+    }
+    
+
 
 a.navbar:hover  {
-    background: red;
-    transition: .5s;
+    text-decoration: underline;
 }
 
+.plus {
+    text-decoration: none;
+    color: rgb(109, 106, 106);
+}
 
+.plus:hover {
+    text-decoration: underline;
+}
+
+.preto {
+    color: black;
+}
+
+.vermelho {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+
+.amarelo {
+    color: yellow;
+}
 
 @media only screen and (max-width: 520px) {
 
     header {
+        #burguer {
+            display: block;
+            
+
+        }
         nav {
-            display: flex;
-            flex-direction: column;
-            justify-content: end;
-            width: 30px;
-            margin-right: 50px;
-            ul {
-                display: flex;
-                flex-direction: column;
-                li {
-                    a {
-                        color: blue;
-                    }
-                }
+            display: none;
+        }
+    }
+
+    main {
+        #section1 {
+            p {
+                left: 40px;
             }
+        }
+        #section2 {
+            flex-direction: column;
+        }
+        
+        #section3 {
+            flex-direction: column;
+        }
+
+        #section4 {
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    #section1 {
+        p {
+            left: 540px;
         }
     }
 }
