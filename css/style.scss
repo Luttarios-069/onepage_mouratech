@@ -66,12 +66,15 @@ main {
             }
             p {
                 position: absolute;
-                left: 250px;
-                top: 260px;
-                font-size: 1.5em;
                 text-align: center;
-                
-                
+                top: 50%;
+                left: 50%;
+                font-size: 1.5em;
+                width: 400px;
+                height: 200px;
+                margin-left: -200px;
+                margin-top: -100px;
+               
             }   
         }
     
@@ -128,7 +131,7 @@ main {
             background-color: yellow;
             flex-direction: row;
             align-items: center;
-            height: 520px;
+            height: 504px;
             padding-top: 20px;
             #img4 {
                 height: 200px;
@@ -156,7 +159,7 @@ a.navbar:hover  {
 
 .plus {
     text-decoration: none;
-    color: rgb(109, 106, 106);
+    color: rgb(0, 0, 0);
 }
 
 .plus:hover {
@@ -193,11 +196,7 @@ a.navbar:hover  {
     }
 
     main {
-        #section1 {
-            p {
-                left: 40px;
-            }
-        }
+        
         #section2 {
             flex-direction: column;
         }
@@ -212,10 +211,3 @@ a.navbar:hover  {
     }
 }
 
-@media only screen and (max-width: 1450px) {
-    #section1 {
-        p {
-            left: 540px;
-        }
-    }
-}
