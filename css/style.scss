@@ -149,9 +149,45 @@ main {
             }
 
         }
+        #section5 {
+            padding: 100px 0px ;
+            background-color: rgb(186, 186, 186);
+            h1 {
+                text-align: center;
+            } 
+            #listadelinks {
+                display: flex;
+                flex-direction: row;
+                ul {
+                    margin: auto;
+                    
+                    li{
+            
+                    }
+                }   
+            }
+        }
     }
     
-
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    p#desenvolvedor {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+    }
+    
+    p#imagensfooter {
+        padding: 10px;
+        img {
+            padding-right: 10px;
+            height: 40px;
+            width: 40px;
+        }
+    }
+}
 
 a.navbar:hover  {
     text-decoration: underline;
@@ -159,7 +195,11 @@ a.navbar:hover  {
 
 .plus {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
+
+    background-color: black;
+    border-radius: 10px;
+    padding: 7px;
 }
 
 .plus:hover {
@@ -181,6 +221,7 @@ a.navbar:hover  {
 .amarelo {
     color: yellow;
 }
+
 
 @media only screen and (max-width: 520px) {
 
