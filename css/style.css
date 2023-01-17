@@ -93,7 +93,6 @@ main #section2 div {
   flex-direction: column;
 }
 main #section2 h2 {
-  font-size: 1.3em;
   text-align: center;
 }
 main #section2 p {
@@ -121,7 +120,6 @@ main #section3 #img3 {
 }
 main #section3 h2 {
   text-align: center;
-  font-size: 1.3em;
 }
 main #section3 p {
   padding: 10px 20px;
@@ -146,7 +144,6 @@ main #section4 #img4 {
   margin-left: 20px;
 }
 main #section4 h2 {
-  font-size: 1.3em;
   text-align: center;
 }
 main #section4 p {
@@ -267,14 +264,8 @@ xxl: 2000px   //Desktops com ultra alta definição QHD e UHD
     display: flex;
     flex-direction: column;
   }
-  main #section5 #listadelinks div {
-    display: flex;
-  }
   main #section5 #listadelinks div ul {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    width: 170px;
     padding: 20px 0px;
+    width: 40vw;
   }
 }/*# sourceMappingURL=style.css.map */
