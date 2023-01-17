@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Site de exemplo das linguagens HTML5, CSS3 e JavaScript">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
     <link rel="stylesheet" href="./css/style.css">
@@ -14,7 +15,7 @@
 <body>
     <header>
         <img src="img/favicon/android-chrome-256x256.png" alt="Logo Do Site">
-        <i id="burguer" class="material-symbols-outlined" onclick="openMenu()" style="color:white">menu</i>
+        <button><i id="burguer" class="material-symbols-outlined" onclick="openMenu()" style="color:white">menu</i></button>
         <nav> 
             <ul>
                 <li><a href="#section2" class="navbar">HTML</a></li>
@@ -25,91 +26,93 @@
         </nav>
     </header>
     <main>
-        <div id="section1">
-            <img src="img/Destaque_o20.png" alt="background" id="img1">
-            <p><strong class="preto">Aprenda</strong> <strong class="vermelho">HTML5</strong><strong class="azul">, CSS3</strong> <strong class="preto">e</strong> <strong class="amarelo">JavaScript</strong>
-                <br>
-                <br>
+        <section id="section1">
+            <h2><strong class="preto">Aprenda</strong> <strong class="vermelho">HTML5</strong><strong class="azul">, CSS3</strong> <strong class="preto">e</strong> <strong class="amarelo">JavaScript</strong></h2>
+            <p>
                 Escrever com <strong class="vermelho">semântica!</strong>
                 <br>
                 Aplicar <strong class="azul">estilos</strong> modernos!
                 <br>
                 Obter uma melhor<strong class="amarelo"> interação</strong>!
-                </p>
-        </div>
-        <div id="section2">
+            </p>
+                
+        </section>
+        <section id="section2">
             <img src="img/HTML5.png" alt="background" id="img2">
-            
-            <p>
-                <strong>A HTML é a linguagem principal da web </strong>
-                <br>
-                <br>
-                A HTML5 modifica a forma como escrevemos código e organizamos a informação na página. 
-                Seria mais semântica com menos código. Seria mais interatividade sem a necessidade de 
-                instalação de plugins e perda de performance. É a criação de código interoperável, pronto 
-                para futuros dispositivos e que facilita a reutilização da informação de diversas formas.
-                <br>
-                <br>
-                <a href="#" class="plus">Saiba mais</a>
-                
-                
-            </p>
-        </div>
-        <div id="section3">
-            <img src="img/CSS3.png" alt="img3" id="img3">
-            <p> 
-                <strong>O CSS complementa o HTML</strong>
-                <br>
-                <br>
-                CSS é uma linguagem de estilo, também conhecida como folhas de 0estilo em cascata. 
-                É usada para personalização visual de um site. Ou seja, elas servem para otimizar o 
-                conteúdo das páginas e permitir uma apresentação mais amigável para o usuário.
-                <br>
-                <br>
-                <a href="#" class="plus">Saiba mais</a>
-
-            </p>
-            
-        </div>
-        <div id="section4">
-            <img src="img/JS.png" alt="img4" id="img4">
-            <p>
-                <strong>Com a HTML e o CSS, o JavaScript é uma das três principais tecnologias da web</strong>
-                <br>
-                <br>
-                O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos 
-                de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional).
-                <br>
-                <br>
-                <a href="#" class="plus">Saiba mais</a>
-
-            </p>
-        </div>
-        <div id="section5">
-            <h1 id="titulos5">Links Úteis</h1><br>  
-            <div id="listadelinks">
-                    <ul>
-                            <li><a target="blank" href="https://www.figma.com"><img src="icons_redimen/Figma_icon_resized_resized.png" alt="links uteis"> Figma</a>
-                            <li><a target="blank" href="https://fonts.google.com/knowledge"><img src="icons_redimen/Google_icon_resized.png" alt="links uteis"> Google Fonts</a>    
-                            <li><a target="blank" href="https://home.unicode.org"><img src="icons_redimen/Unicode_icon_resized.png" alt="links uteis"> unicode.org</a>                                          
-                            <li><a target="blank" href="https://www.favicon-generator.org"><img src="icons_redimen/Realfavicongenerator_icon_resized.png" alt="links uteis"> Favicon Generator</a>                      
-                            <li><a target="blank" href="https://getbootstrap.com"><img src="icons_redimen/Bootstrap_icon_resized.png" alt="links uteis"> Bootstrap</a>                       
-                    </ul>           
-                    <ul>
-                            <li><a target="blank" href="https://git-scm.com"><img src="icons_redimen/Git_icon_resized.png" alt="links uteis">  Git</a>
-                            <li><a target="blank" href="https://github.com"><img src="icons_redimen/Github_icon_resized.png" alt="links uteis"> Github</a>                                        
-                            <li><a target="blank" href="https://code.visualstudio.com"><img src="icons_redimen/Visual_Studio_Code_icon_resized.png" alt="links uteis"> Vs Code</a>
-                            <li><a target="blank" href="https://nodejs.org"><img src="icons_redimen/Node.js_icon_resized.png" alt="links uteis"> Node.js</a>
-                    </ul>
-                    <ul>
-                            <li><a target="blank" href="https://www.w3c.br"><img src="icons_redimen/W3C_Brasil_icon_resized.png" alt="links uteis"> W3C</a>
-                            <li><a target="blank" href="https://validator.w3.org"><img src="icons_redimen/W3C_icon_resized.png" alt="links uteis"> Validatpr HTML</a>
-                            <li><a target="blank" href="https://jigsaw.w3.org/css-validator/"><img src="icons_redimen/W3C_icon_resized.png" alt="links uteis"> Validator CSS</a>
-                            <li><a target="blank" href="https://www.w3c.br"><img src="icons_redimen/W3C_Brasil_icon_resized.png" alt="links uteis"> W3C Brasil</a>
-                            <li><a target="blank" href="https://www.w3schools.com"><img src="icons_redimen/W3Schools_icon_resized.png" alt="links uteis"> W3schools</a>
-                    </ul>   
+            <div>
+                <h2>A HTML é a linguagem principal da web</h2>
+                <p>
+                    A HTML5 modifica a forma como escrevemos código e organizamos a informação na página.
+                    Seria mais semântica com menos código. Seria mais interatividade sem a necessidade de
+                    instalação de plugins e perda de performance. É a criação de código interoperável, pronto
+                    para futuros dispositivos e que facilita a reutilização da informação de diversas formas.
+                </p>
+                <p class="saiba_mais">
+                    <a href="#" class="plus">Saiba mais</a>
+                </p>
             </div>
-        </div>
+            <br>
+            
+        </section>
+        <section id="section3">
+            <img src="img/CSS3.png" alt="img3" id="img3">
+            <div>
+                <h2>O CSS complementa o HTML</h2>
+                <p>
+                    CSS é uma linguagem de estilo, também conhecida como folhas de 0estilo em cascata.
+                    É usada para personalização visual de um site. Ou seja, elas servem para otimizar o
+                    conteúdo das páginas e permitir uma apresentação mais amigável para o usuário.
+                </p>
+                <p class="saiba_mais">
+                    <a href="#" class="plus">Saiba mais</a>
+                </p>
+            </div>
+            
+        </section>
+        <section id="section4">
+            <img src="img/JS.png" alt="img4" id="img4">
+            <div>
+                <h2>Com a HTML e o CSS, o JavaScript é uma das três principais tecnologias da web</h2>
+                <p>
+                    O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos
+                    de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional).
+                </p>
+                <p class="saiba_mais">
+                    <a href="#" class="plus">Saiba mais</a>
+                </p>
+            </div>
+        </section>
+        <section id="section5">
+            <h2 id="titulos5">Links Úteis</h2><br>  
+            <div id="listadelinks">
+                    <div>
+                        <ul>
+                                <li><a target="blank" href="https://www.figma.com"><img src="icons_redimen/Figma_icon_resized_resized.png" alt="links uteis"> Figma</a>
+                                <li><a target="blank" href="https://fonts.google.com/knowledge"><img src="icons_redimen/Google_icon_resized.png" alt="links uteis"> Google Fonts</a>
+                                <li><a target="blank" href="https://home.unicode.org"><img src="icons_redimen/Unicode_icon_resized.png" alt="links uteis"> unicode.org</a>
+                                <li><a target="blank" href="https://www.favicon-generator.org"><img src="icons_redimen/Realfavicongenerator_icon_resized.png" alt="links uteis"> Favicon Generator</a>
+                                <li><a target="blank" href="https://getbootstrap.com"><img src="icons_redimen/Bootstrap_icon_resized.png" alt="links uteis"> Bootstrap</a>
+                        </ul>
+                    </div>          
+                    <div>
+                        <ul>
+                                <li><a target="blank" href="https://git-scm.com"><img src="icons_redimen/Git_icon_resized.png" alt="links uteis">  Git</a>
+                                <li><a target="blank" href="https://github.com"><img src="icons_redimen/Github_icon_resized.png" alt="links uteis"> Github</a>
+                                <li><a target="blank" href="https://code.visualstudio.com"><img src="icons_redimen/Visual_Studio_Code_icon_resized.png" alt="links uteis"> Vs Code</a>
+                                <li><a target="blank" href="https://nodejs.org"><img src="icons_redimen/Node.js_icon_resized.png" alt="links uteis"> Node.js</a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                                <li><a target="blank" href="https://www.w3c.br"><img src="icons_redimen/W3C_Brasil_icon_resized.png" alt="links uteis"> W3C</a>
+                                <li><a target="blank" href="https://validator.w3.org"><img src="icons_redimen/W3C_icon_resized.png" alt="links uteis"> Validatpr HTML</a>
+                                <li><a target="blank" href="https://jigsaw.w3.org/css-validator/"><img src="icons_redimen/W3C_icon_resized.png" alt="links uteis"> Validator CSS</a>
+                                <li><a target="blank" href="https://www.w3c.br"><img src="icons_redimen/W3C_Brasil_icon_resized.png" alt="links uteis"> W3C Brasil</a>
+                                <li><a target="blank" href="https://www.w3schools.com"><img src="icons_redimen/W3Schools_icon_resized.png" alt="links uteis"> W3schools</a>
+                        </ul>
+                    </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p id="desenvolvedor">©2023 - Luiz Carlos Oliveira Maciel</p> 
