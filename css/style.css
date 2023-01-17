@@ -268,7 +268,13 @@ xxl: 2000px   //Desktops com ultra alta definição QHD e UHD
     flex-direction: column;
   }
   main #section5 #listadelinks div ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     padding: 20px 0px;
-    width: 40vw;
+    width: 48vw;
+    margin: 0;
+    font-size: 5vw;
+    margin-left: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
