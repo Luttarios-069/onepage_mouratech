@@ -22,14 +22,17 @@ header img {
   height: 120px;
   width: 120px;
 }
-header button {
-  background-color: black;
-}
 header #burguer {
   display: none;
   margin-top: 15px;
   margin-right: 15px;
   font-size: 60px;
+}
+header #close {
+  display: none;
+  font-size: 60px;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 header nav {
   display: flex;
