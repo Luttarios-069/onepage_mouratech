@@ -59,6 +59,7 @@ main #section1 {
   background-image: url(../img/Destaque_o20.png);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,7 +72,7 @@ main #section1 h2 {
 main #section1 p {
   text-align: center;
   font-size: 4vw;
-  width: 700px;
+  width: 80vw;
 }
 main #section2 {
   display: flex;
