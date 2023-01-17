@@ -12,6 +12,4 @@ function openMenu() {
     ul.style.flexDirection = 'column'
     ul.style.backgroundColor = 'black';
     ul.style.alignItems = 'center'
-    
-
 }
